@@ -8,12 +8,6 @@ body{
   margin: 0;
 }
 
-p{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  color: rgb(131, 131, 131);
-}
-
 .instagram-perfil img{
   height: 35px;
 }
@@ -112,60 +106,55 @@ a :hover{
   font-size: 25px;
 }
 
-.informacion{
-  border: 5px solid darkgray;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  width: 90vw;
+.info{
   background-color: darkgray;
-  top: -180px;
-  display: flex;
-  border-radius: 5px;
-  font-family: sans-serif;
-  color: rgb(133, 131, 131);
-  font-size: 13px;
-}
-
-.acerca{
-  background-color: rgb(245, 244, 244);
-  height: 10vw;
-  width: 45vw;
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 5px solid rgb(224, 224, 224);
-  font-family: sans-serif;
-  color: rgb(133, 131, 131);
-  font-size: 13px;
-  font-family: sans-serif;
+  width: 95%;
+  top: -190px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: whitesmoke 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 0px 35px 0px 35px; 
+  -moz-border-radius: 0px 35px 0px 35px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 5px solid rgb(224, 224, 224);
 }
 
-.contacto{
-  background-color: rgb(245, 244, 244);
-  height: 10vw;
-  width: 45vw;
-  margin-left: 60px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 5px solid rgb(224, 224, 224);
-  font-size: 13px;
-  font-family: sans-serif;
+.titulo{
+  background-color: darkgray;
+  width: 95%;
+  top: -160px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-direction: column;
-  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: whitesmoke 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 0px 35px 0px 35px; 
+  -moz-border-radius: 0px 35px 0px 35px; 
+  -webkit-border-radius: 0px 35px 0px 35px; 
+  border: 5px solid rgb(224, 224, 224);
 }
 
+  
 .experiences {
   display: flex;
   flex-direction: column;
@@ -302,5 +291,57 @@ a :hover{
   .line::after {
     top: 100%;
     z-index: 1;
+  }
+}
+
+.skills {
+  max-width: 95%;
+  margin: 0 auto;
+  background-color: rgb(180, 180, 180);
+  display: flex;
+  flex-direction: column;
+  top: -70px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid rgb(224, 224, 224);
+  border-radius: 5px;
+}
+
+.skills-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skills-skill {
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+  padding: 0.5em 0.7em;
+  margin: 10px;
+  background-color: whitesmoke;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media(min-width: 950px) {
+  .skills-title {
+    font-size: 50px;
+  }
+  
+  .skills-skill {
+    font-size: 30px;
+    margin: 20px;
+    color: gray;
   }
 }
