@@ -107,6 +107,15 @@ a :hover{
 }
 
 .info{
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 0px 35px 0px 35px; 
+  -moz-border-radius: 0px 35px 0px 35px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 5px solid rgb(224, 224, 224);
   background-color: darkgray;
   width: 95%;
   top: -190px;
@@ -118,7 +127,10 @@ a :hover{
   margin-left: auto;
   margin-right: auto;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  color: whitesmoke 
+  color: whitesmoke
+}
+
+.titulo{
   font-size: 18px; 
   font-weight: 400; 
   text-align: center; 
@@ -126,11 +138,8 @@ a :hover{
   padding: 20px; 
   border-radius: 0px 35px 0px 35px; 
   -moz-border-radius: 0px 35px 0px 35px; 
-  -webkit-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 0px 35px 0px 35px; 
   border: 5px solid rgb(224, 224, 224);
-}
-
-.titulo{
   background-color: darkgray;
   width: 95%;
   top: -160px;
@@ -143,15 +152,6 @@ a :hover{
   margin-right: auto;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
   color: whitesmoke 
-  font-size: 18px; 
-  font-weight: 400; 
-  text-align: center; 
-  overflow: hidden; 
-  padding: 20px; 
-  border-radius: 0px 35px 0px 35px; 
-  -moz-border-radius: 0px 35px 0px 35px; 
-  -webkit-border-radius: 0px 35px 0px 35px; 
-  border: 5px solid rgb(224, 224, 224);
 }
 
   
