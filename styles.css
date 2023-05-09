@@ -83,6 +83,25 @@ a :hover{
   border-radius: 5px;
 }
 
+.portada-edit img{
+height: 35px;
+width: 35px;
+margin-top: 15px;
+margin-left: 1210px;
+}
+
+.perfil-edit img{
+  height: 35px;
+  width: 35px;
+  margin-left: 220px;
+  margin-top: 200px;
+}
+
+.nombre-edit img{
+  height: 35px;
+  width: 35px;
+}
+
 .perfil{
   width: 300px;
   height: 300px;
@@ -151,6 +170,13 @@ a :hover{
   color: whitesmoke 
 }
 
+.experience-edit img {
+  height: 35px;
+}
+
+.experienceleft-edit img{
+  height: 35px;
+}
   
 .experiences {
   display: flex;
@@ -291,6 +317,11 @@ a :hover{
   }
 }
 
+.estudios-edit img {
+  height: 35px;
+  margin-left: 850px;
+}
+
 .estudios {
   align-items: center;
   justify-content: center;
@@ -384,6 +415,12 @@ a :hover{
   }
 }
 
+.skills-edit img{
+  height: 35px;
+  margin-left: 1170px;
+  margin-top: 20px;
+}
+
 .skills {
   max-width: 95%;
   margin: 0 auto;
@@ -434,6 +471,11 @@ a :hover{
     margin: 20px;
     color: gray;
   }
+}
+
+.proyectos-edit img{
+  height: 35px;
+  margin-left: 840px;
 }
 
 .proyectos {
