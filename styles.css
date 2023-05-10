@@ -75,7 +75,7 @@ a :hover{
   height: 500px;
   position: relative;
   top: 10px;
-  background-image: url(/img/portada.jpg);
+  background-image: url(https://i.pinimg.com/originals/40/a4/20/40a420ddd728019bc2797797284e122b.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -103,6 +103,8 @@ margin-left: 1210px;
 }
 
 .perfil{
+  background-position: center;
+  background-size: 300px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -111,9 +113,7 @@ margin-left: 1210px;
   margin-left: auto;
   margin-right: auto;
   top: -200px;
-  background-image: url(img/perfil.png);
-  background-position: center;
-  background-size: 300px;
+  background-image: url(https://i.pinimg.com/474x/1b/66/1a/1b661a3f67d5d3d7fc74a0232697c7fa.jpg)
 }
 
 .nombre{
@@ -170,7 +170,20 @@ margin-left: 1210px;
   color: whitesmoke 
 }
 
+.experienceleft-modifier{
+  align-items: center;
+  justify-content: space-between;
+}
+
 .experience-edit img {
+  height: 35px;
+}
+
+.experienceleft-delete img{
+  height: 35px;
+}
+
+.experience-delete img{
   height: 35px;
 }
 
@@ -317,9 +330,19 @@ margin-left: 1210px;
   }
 }
 
+.estudios-delete img{
+  height: 35px;
+}
+
 .estudios-edit img {
   height: 35px;
-  margin-left: 850px;
+}
+
+.estudios-modifier{
+  padding-top: 5px;
+  padding-left: 780px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .estudios {
@@ -415,10 +438,19 @@ margin-left: 1210px;
   }
 }
 
+.skills-delete img{
+  height: 35px;
+}
+
 .skills-edit img{
   height: 35px;
-  margin-left: 1170px;
-  margin-top: 20px;
+}
+
+.skills-modifier{
+  padding-top: 20px;
+  padding-left: 1140px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .skills {
@@ -473,9 +505,19 @@ margin-left: 1210px;
   }
 }
 
+.proyectos-delete img{
+  height: 35px;
+}
+
 .proyectos-edit img{
   height: 35px;
-  margin-left: 840px;
+}
+
+.proyectos-modifier{
+  padding-top: 5px;
+  padding-left: 780px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .proyectos {
